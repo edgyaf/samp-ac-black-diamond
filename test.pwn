@@ -6,7 +6,7 @@ new g_BanTimer[MAX_PLAYERS];
 
 main()
 {
-    
+
 }
 
 public OnGameModeInit()
@@ -20,9 +20,9 @@ public OnGameModeInit()
 public OnOldVersionDetected(playerid)
 {
     printf("Old version detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "Update your SA-MP version and return to the server: www.sa-mp.mp");
-	GameTextForPlayer(playerid, "~r~Old Version", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "Update your SA-MP version and return to the server: www.sa-mp.mp");
+    GameTextForPlayer(playerid, "~r~Old Version", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -30,9 +30,9 @@ public OnOldVersionDetected(playerid)
 public OnImprovedDeagleDetected(playerid)
 {
     printf("ImprovedDeagle detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (ImprovedDeagle), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (ImprovedDeagle), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -40,9 +40,9 @@ public OnImprovedDeagleDetected(playerid)
 public OnExtraWsDetected(playerid)
 {
     printf("ExtraWS detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (ExtraWS), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (ExtraWS), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -50,9 +50,9 @@ public OnExtraWsDetected(playerid)
 public OnS0beitDetected(playerid)
 {
     printf("s0beit detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (s0beit), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (s0beit), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -60,9 +60,9 @@ public OnS0beitDetected(playerid)
 public OnSampfuncsDetected(playerid)
 {
     printf("SAMPFUNCS detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (SAMPFUNCS), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (SAMPFUNCS), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -70,9 +70,9 @@ public OnSampfuncsDetected(playerid)
 public OnSprintHookDetected(playerid)
 {
     printf("SprintHook detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (SprintHook), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (SprintHook), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -80,9 +80,9 @@ public OnSprintHookDetected(playerid)
 public OnModsDetected(playerid)
 {
     printf("Mods detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (CLEO/Mod Loader), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (CLEO/Mod Loader), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
@@ -90,9 +90,9 @@ public OnModsDetected(playerid)
 public OnBypassDetected(playerid)
 {
     printf("Bypass detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats, get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedBan(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats, get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedBan(playerid);
     return 1;
 }
 
@@ -100,9 +100,9 @@ public OnBypassDetected(playerid)
 public OnSilentAimDetected(playerid)
 {
     printf("Silent Aim detected %d", playerid);
-	SendClientMessage(playerid, 0xFF000000, "You're using cheats (Silent Aim), get out!");
-	GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
-	DelayedKick(playerid);
+    SendClientMessage(playerid, 0xFF000000, "You're using cheats (Silent Aim), get out!");
+    GameTextForPlayer(playerid, "~r~You're using cheats, get out!", 5000, 3);
+    DelayedKick(playerid);
     return 1;
 }
 
