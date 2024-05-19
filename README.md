@@ -5,7 +5,7 @@ Anti-cheat for SA-MP supporting the latest versions.
 > [!NOTE]
 > This anti-cheat requires the player to use client version 0.3.7-R2 or later. R1 (and therefore also mobile clients) is not supported. It is recommended to block connections from this version and encourage players to update their client.
 
-Anti-cheat created by @asm360 and improved by me. Due to the nature of the detection methods used, the main file is released only as AMX. If you have any doubts about its contents, analyze it with any HEX editor or ask your questions in the Issues section.
+Anti-cheat created by [@asm360](https://github.com/asm360) and improved by me. Due to the nature of the detection methods used, the main file is released only as AMX. If you have any doubts about its contents, analyze it with any HEX editor or ask your questions in the Issues section.
 
 # How to use
 
