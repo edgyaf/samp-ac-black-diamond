@@ -1,4 +1,4 @@
-// by SobFox & edgy
+// by SobFoX & edgy
 #if defined _INC_ac_black_diamond
     #endinput
 #endif
