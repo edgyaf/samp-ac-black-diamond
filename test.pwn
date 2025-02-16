@@ -3,7 +3,6 @@
 
 new g_KickTimer[MAX_PLAYERS];
 new g_BanTimer[MAX_PLAYERS];
-new bool:g_IsOmp;
 
 main()
 {
@@ -12,11 +11,6 @@ main()
 
 public OnGameModeInit()
 {
-    new version[16];
-    GetConsoleVarAsString("version", version);
-    
-    g_IsOmp = strfind(version, "open.mp") != -1;
-
     AddPlayerClass(0, 0.0, 0.0, 3.0, 0.0, WEAPON_DEAGLE, 9999, WEAPON_FIST, 0, WEAPON_FIST, 0);
 
     return 1;
@@ -26,14 +20,7 @@ public OnGameModeInit()
 public OnOldVersionDetected(playerid)
 {
     printf("Old version detected %d", playerid);
-    if (g_IsOmp)
-    {
-        SendClientMessage(playerid, 0xFF000000, "Download open.mp launcher and return to the server: www.open.mp");
-    }
-    else
-    {
-        SendClientMessage(playerid, 0xFF000000, "Update your SA-MP version and return to the server: www.sa-mp.mp");
-    }
+    SendClientMessage(playerid, 0xFF000000, "Update your SA-MP version and return to the server: www.sa-mp.mp");
     GameTextForPlayer(playerid, "~r~Old Version", 5000, 3);
     DelayedKick(playerid);
     return 1;
