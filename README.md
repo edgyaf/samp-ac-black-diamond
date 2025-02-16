@@ -6,7 +6,7 @@ Anti-cheat for SA-MP supporting the latest versions.
 > This anti-cheat relies on features that are available only in 0.3.7-R2 and newer versions. 0.3.7 (R1) is supported only if the server is running [open.mp server](https://github.com/openmultiplayer/open.mp) and the player is using [open.mp launcher](https://github.com/openmultiplayer/launcher). **Mobile client is not supported.**
 
 > [!WARNING]
-> The **-omp** version is intended for use on the open.mp server. The latest version at the time of writing (v1.3.1.2748) doesn't have the native used for open.mp launcher detection. Update your open.mp server to the latest nightly version or use the SA-MP version until a new stable version is released.
+> The **-omp** version is intended for use on the open.mp server.
 
 Anti-cheat improved by me. Due to the nature of the detection methods used, the main file is released only as AMX. If you have any doubts about its contents, analyze it with any HEX editor or ask your questions in the Issues section.
 
